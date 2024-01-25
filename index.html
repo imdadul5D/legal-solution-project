@@ -59,6 +59,7 @@
               "cmn-clr": "#707070",
               "cmn-bg": "#B68C5A",
               "heading": "#414040",
+              "footer" : "#CFCFCF",
             },
           },
         },
@@ -266,8 +267,8 @@
       </section>
       <!-- Legal Practice Area Part End -->
 
-      <!-- Our Client Say Part Start -->
-      <section class="text-center my-14px">
+      <!-- FAQ Part Start -->
+      <section class="text-center my-14">
         <h3 class="font-eb text-4xl font-extrabold font-heading mb-6">Frequently Asked Any Questions</h3>
         <p class="font-pop text-base font-normal text-cmn-clr pb-16">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
 
@@ -321,13 +322,116 @@
         </div>
         
       </section>
-      <!-- Our Client Say Part End -->
+      <!-- FAQ Part End -->
+
+      <!-- Contact Part Start -->
+      <section class="text-center my-14">
+        <h3 class="font-eb text-4xl font-extrabold font-heading mb-6">Contact With Us</h3>
+        <p class="font-pop text-base font-normal text-cmn-clr pb-16">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+
+        <div class="flex flex-col lg:flex-row gap-7">
+
+          <!-- Grid part start -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 flex-1">
+
+            <div class="flex flex-col justify-center items-center px-14 py-16 bg-[#F3F3F3] space-y-4 border-b border-r">
+              <img src="images/location.png" alt="location" class="w-10">
+              <h4 class="font-eb font-extrabold text-2xl text-heading">Address</h4>
+              <p class="font-pop font-normal text-base text-cmn-clr">A108 Adam Street, <br> New York, NY 535022</p>
+            </div>
+
+            <div class="flex flex-col justify-center items-center px-14 py-16 bg-[#F3F3F3] space-y-4 border-b">
+              <img src="images/call.png" alt="call" class="w-10">
+              <h4 class="font-eb font-extrabold text-2xl text-heading">Call Us</h4>
+              <p class="font-pop font-normal text-base text-cmn-clr">+88 01750 00 00 00 <br> +88 01750 00 00 00</p>
+            </div>
+
+            <div class="flex flex-col justify-center items-center px-14 py-16 bg-[#F3F3F3] space-y-4 border-b border-r">
+              <img src="images/email.png" alt="email" class="w-10">
+              <h4 class="font-eb font-extrabold text-2xl text-heading">Email Us</h4>
+              <p class="font-pop font-normal text-base text-cmn-clr">info@gmail.com <br> info@gmail.com</p>
+            </div>
+
+            <div class="flex flex-col justify-center items-center px-14 py-16 bg-[#F3F3F3] space-y-4 border-b">
+              <img src="images/time.png" alt="time" class="w-10">
+              <h4 class="font-eb font-extrabold text-2xl text-heading">Working Hours</h4>
+              <p class="font-pop font-normal text-base text-cmn-clr">Mon-Fri: 9AM to 5PM <br> Sunday: 9AM to 1 PM</p>
+            </div>
+
+          </div>
+          <!-- Grid part End -->
+
+          <!-- Form Part Start -->
+          <div class="flex-1 space-y-7">
+            <div class="w-full">
+              <input type="text" placeholder="Your Name" class="input input-ghost bg-[#F3F3F3] w-full py-7"/>
+            </div>
+            <div class="">
+              <input type="email" placeholder="Your Email" class="input input-ghost bg-[#F3F3F3] w-full py-7"/>
+            </div>
+            <div class="">
+              <input type="text" placeholder="Subject" class="input input-ghost bg-[#F3F3F3] w-full py-7"/>
+            </div>
+            <div class="">
+              <textarea class="textarea textarea-ghost w-full bg-[#F3F3F3] h-56" placeholder="Bio"></textarea>
+            </div>
+            <div>
+              <button class="w-full bg-cmn-bg py-6 font-pop font-semibold text-xl text-white rounded-lg">Send Message</button>
+            </div>
+          </div>
+          <!-- Form Part End -->
+
+        </div>
+
+      </section>
+      <!-- Contact Part End -->
 
     </main>
     <!-- Main Part End -->
 
     <!-- Footer Part Start -->
-    <footer class=""></footer>
+
+    <footer class="bg-[#111] py-32 footer">
+      <div class="container mx-auto justify-between flex">
+        <nav>
+          <header class="footer-title pb-8">
+            <img src="images/logo.png" alt="footer-logo">
+          </header> 
+          <p class="font-pop text-footer font-normal text-base ">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+        </nav> 
+        <nav class="flex flex-col">
+          <header class="font-eb font-extrabold text-2xl text-white pb-10">Usefull Link</header> 
+          <div class="flex flex-col font-pop font-normal text-base text-footer space-y-4">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blog</a>
+            <a class="link link-hover">Contact Us</a>
+          </div>
+        </nav> 
+        <nav class="flex flex-col">
+          <header class="font-eb font-extrabold text-2xl text-white pb-10">Contact Now</header> 
+          <div class="flex flex-col font-pop font-normal text-base text-footer space-y-4">
+            <a class="link link-hover">555 4th 5t NW, Washington <br> DC 20530, United States</a>
+            <a class="link link-hover">+88 01750 000 000 <br> +88 01750 000 000</a>
+            <a class="link link-hover">info@gmail.com <br> info@gmail.com</a>
+          </div>
+        </nav> 
+        <form>
+          <header class="font-eb text-2xl font-extrabold text-white pb-10">Subscribe</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text font-pop text-footer font-normal text-base pb-6">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="Email Address" class="input input-bordered join-item out" /> 
+              <button class="btn bg-cmn-bg join-item text-white border-none"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
+  
     <!-- Footer Part End -->
-  </body>
+</body>
 </html>
